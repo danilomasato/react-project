@@ -1,0 +1,51 @@
+@media (min-width: 1025px) {
+	.iLjLLY {
+		position: absolute;
+		width: 100%;
+    left: 0;
+    opacity: 0;
+	}
+
+	.iLjLLY:hover {
+		opacity: 1;
+		transition: opacity .3s ease-in-out;
+	}
+
+	.carousel-arrow-right,
+	.carousel-arrow-left {
+		position: absolute;
+    left: 0;
+		border: 0;
+	}
+
+	.carousel-arrow-right:after,
+	.carousel-arrow-left:after {
+		content: '>';
+    position: absolute;
+    right: -9px;
+    top: -20px;
+    color: #fff;
+    text-align: left;
+    line-height: 64px;
+    display: block;
+    padding: 0 0 0 20px;
+    width: 44px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: #242a2c;
+	}
+
+	.carousel-arrow-left,
+	.carousel-arrow-right {
+		width: 64px;
+	}
+
+	.carousel-arrow-left:after {
+		content: '<';
+    left: -6px;
+    top: -20px;
+    color: #fff;
+    text-align: right;
+    padding: 0 20px 0 0;
+	}
+}
